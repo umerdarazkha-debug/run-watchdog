@@ -1,0 +1,6 @@
+# demo crontab
+MAILTO=nobody@example.com
+PATH=/usr/bin:/bin
+0 6 * * * /usr/local/bin/make-report --out ~/out/report.csv >> ~/logs/report.log 2>&1
+*/15 * * * * cd ~/demo && ./sync.sh && ./notify.sh
+@daily /usr/bin/python3 ~/demo/backup.py

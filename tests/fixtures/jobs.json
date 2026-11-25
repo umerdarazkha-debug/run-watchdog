@@ -1,0 +1,8 @@
+{"jobs": [
+  {"name": "nightly-report", "every": "daily"},
+  {"name": "backup", "every": "daily"},
+  {"name": "weekly-audit", "every": "weekly"},
+  {"name": "hourly-sync", "every": "hourly"},
+  {"name": "frequent-check", "every": "30m"},
+  {"name": "never-started", "every": "daily"}
+]}

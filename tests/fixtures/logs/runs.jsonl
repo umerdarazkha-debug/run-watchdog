@@ -1,0 +1,8 @@
+{"name":"nightly-report","start":"2026-11-26T03:00:00Z","end":"2026-11-26T03:05:00Z","duration_s":300,"exit_code":0,"status":"ok","expect":[{"path":"~/out/report.csv","ok":true,"reason":""}]}
+{"name":"backup","start":"2026-11-26T02:00:00Z","end":"2026-11-26T02:00:05Z","duration_s":5,"exit_code":3,"status":"silent_failure","expect":[{"path":"~/backup/latest.tar","ok":false,"reason":"not modified during the run"}]}
+{"name":"weekly-audit","start":"2026-11-10T09:00:00Z","end":"2026-11-10T09:10:00Z","duration_s":600,"exit_code":0,"status":"ok","expect":[]}
+{"name":"hourly-sync","start":"2026-11-26T08:00:00Z","end":"2026-11-26T08:01:00Z","duration_s":60,"exit_code":0,"status":"ok","expect":[]}
+{"name":"frequent-check","start":"2026-11-26T11:00:00Z","end":"2026-11-26T11:00:10Z","duration_s":10,"exit_code":0,"status":"ok","expect":[]}
+{"name":"frequent-check","start":"2026-11-26T11:30:00Z","end":"2026-11-26T11:30:10Z","duration_s":10,"exit_code":1,"status":"failed","expect":[]}
+{"name":"old-thing","start":"2026-11-01T00:00:00Z","end":"2026-11-01T00:00:10Z","duration_s":10,"exit_code":0,"status":"ok","expect":[]}
+not valid json
